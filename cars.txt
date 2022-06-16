@@ -1,1 +1,21 @@
-CARS 
+USED CARS 
+
+id - INT - UNSIGNED - PRIMARY KEY - NOTNULL - AUTO_INCREMENT - UNIQUE
+brand - VARCHAR(30) - NOTNULL
+model - VARCHAR(50) - NOTNULL
+version - VARCHAR(60) - NULL
+body - VARCHAR(30) - NULL
+year - YEAR - NOTNULL
+price - UNSIGNED - DECIMAL(9,2)- NOTNULL
+fuel - VARCHAR(20) - NOTNULL
+kilometers - SMALLINT - DEFAULT(1) - UNSIGNED - NOTNULL
+power_cv - SMALLINT - UNSIGNED - NOTNULL
+powewr_kw - SMALLINT - UNSIGNED - NOTNULL
+emissions - VARCHAR(20) - NOTNULL
+vehicle_condition - VARCHAR(20) - NULL
+gearbox - VARCHAR(15) -NOTNULL
+door_number - TINYINT - DEFAULT(3) - UNSIGNED - NULL
+seats_number - TINYINT - DEFAULT(2) - UNSIGNED - NULL
+external_color - VARCHAR(20) - NULL
+interior_color - VARCHAR(20) - NULL
+owners - TINYINT - DEFAULT(1) - UNSIGNED - NULL
